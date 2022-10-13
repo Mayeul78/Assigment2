@@ -1,0 +1,30 @@
+body{
+    background-color:beige;
+    padding:0;
+    margin:0;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color:  rgb(141, 161, 104);
+    height: 50px;
+    border-style: solid;
+    margin: 3px;
+    border-radius: 10px;
+}
+h1{  
+    position: relative;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
